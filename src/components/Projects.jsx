@@ -1,4 +1,6 @@
+import { GlobeAltIcon } from '@heroicons/react/24/outline';
 import { motion } from 'framer-motion';
+import { SocialIcon } from 'react-social-icons/build/react-social-icons';
 import chatGPT from '../public/chatgpt.png';
 import insta from '../public/instagram.png';
 
@@ -18,7 +20,7 @@ function Projects() {
         <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-6 items-center justify-center p-20 md:p-44 h-screen">
           <motion.img
             initial={{
-              y: -300,
+              y: -100,
               opacity: 0,
             }}
             transition={{ duration: 1.2 }}
@@ -30,9 +32,17 @@ function Projects() {
           />
 
           <div className="space-y-2 px-0 md:px-10 max-w-6xl">
+            <div className="flex items-center justify-center space-x-6 h-fit">
+              <SocialIcon
+                url="https://github.com/tarunclub/chatgpt-clone"
+                fgColor="gray"
+                bgColor="transparent"
+              />
+              <GlobeAltIcon className="h-7 w-7 text-gray-500 cursor-pointer" />
+            </div>
             <h4 className="text-2xl font-semibold text-center">ChatGPT</h4>
 
-            <p className="text-center">
+            <p className="text-center ">
               Check out my ChatGPT clone - a sleek, modern chatbot that utilizes
               OpenAI's natural language processing to provide engaging
               conversation and answers to a variety of questions. Built with
@@ -45,7 +55,7 @@ function Projects() {
         <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-6 items-center justify-center p-20 md:p-44 h-screen">
           <motion.img
             initial={{
-              y: -300,
+              y: -100,
               opacity: 0,
             }}
             transition={{ duration: 1.2 }}
@@ -53,10 +63,23 @@ function Projects() {
             viewport={{ once: true }}
             src={insta}
             alt="picture"
-            className="rounded-full border border-gray-500 object-contain h-32 w-32"
+            className="rounded-full object-contain h-32 w-32"
           />
 
           <div className="space-y-2 px-0 md:px-10 max-w-6xl">
+            <div className="flex items-center justify-center space-x-6 h-fit">
+              <SocialIcon
+                url="https://github.com/tarunclub/instagram-clone"
+                fgColor="gray"
+                bgColor="transparent"
+              />
+              <a
+                href="https://instagram-clone-kappa-tan.vercel.app/"
+                target="_blank"
+              >
+                <GlobeAltIcon className="h-7 w-7 text-gray-500 cursor-pointer" />
+              </a>
+            </div>
             <h4 className="text-2xl font-semibold text-center">
               Instagram Clone
             </h4>
