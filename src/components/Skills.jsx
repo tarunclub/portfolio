@@ -9,11 +9,11 @@ function Skills() {
       transition={{ duration: 1.5 }}
       className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center h-screen xl:space-y-0 mx-auto items-center"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl">
+      <h3 className="absolute top-16 md:top-24 uppercase tracking-[20px] text-gray-500 text-xl">
         Skills
       </h3>
 
-      <div className="grid grid-cols-4 gap-5 md:pt-24">
+      <div className="grid grid-cols-4 gap-5 pt-16 md:pt-24">
         <Skill img="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-1024.png" />
         <Skill img="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png" />
         <Skill img="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png" />

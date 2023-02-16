@@ -12,11 +12,11 @@ function Projects() {
       transition={{ duration: 1.5 }}
       className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl">
+      <h3 className="absolute top-16 md:top-24 uppercase tracking-[20px] text-gray-500 text-xl">
         Projects
       </h3>
 
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-track-gray-400/20 scrollbar-thumb-white/80 scrollbar-thin">
+      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-track-gray-400/20 scrollbar-thumb-white/80 scrollbar-thin pt-6">
         <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-6 items-center justify-center p-20 md:p-44 h-screen">
           <motion.img
             initial={{
@@ -42,7 +42,7 @@ function Projects() {
             </div>
             <h4 className="text-2xl font-semibold text-center">ChatGPT</h4>
 
-            <p className="text-center ">
+            <p className="text-center text-sm md:text-base">
               Check out my ChatGPT clone - a sleek, modern chatbot that utilizes
               OpenAI's natural language processing to provide engaging
               conversation and answers to a variety of questions. Built with
@@ -84,7 +84,7 @@ function Projects() {
               Instagram Clone
             </h4>
 
-            <p className="text-center">
+            <p className="text-sm md:text-base text-center">
               Check out my Instagram clone - a sleek, modern web application
               built with Next.js and Firebase that lets users upload photos,
               comment, and engage with a community of users. With a robust

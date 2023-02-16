@@ -46,7 +46,7 @@ function Header() {
           bgColor="transparent"
         />
       </motion.div>
-      <a href="#contact" className="flex items-center">
+      <a href="#contact" className="flex items-center ">
         <SocialIcon
           className="cursor-pointer"
           network="email"
