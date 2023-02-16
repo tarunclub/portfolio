@@ -26,11 +26,15 @@ function Hero() {
         </h1>
 
         <div className="pt-5 font-semibold">
-          <button className="heroButton">About</button>
-
-          <button className="heroButton">Skills</button>
-
-          <button className="heroButton">Project</button>
+          <a href="#about">
+            <button className="heroButton">About</button>
+          </a>
+          <a href="#skills">
+            <button className="heroButton">Skills</button>
+          </a>
+          <a href="#projects">
+            <button className="heroButton">Project</button>
+          </a>
         </div>
       </div>
     </div>
