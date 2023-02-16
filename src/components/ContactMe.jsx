@@ -16,9 +16,9 @@ function ContactMe() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center z-0"
+      className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-7xl justify-evenly items-center z-0"
     >
-      <h3 className="absolute top-16 uppercase tracking-[20px] text-gray-500 text-xl">
+      <h3 className="absolute top-16 uppercase tracking-[20px] text-gray-500 text-lg md:text-xl">
         Contact
       </h3>
 
@@ -27,16 +27,16 @@ function ContactMe() {
 
         <div className="space-y-3">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="h-7 w-7 animate-pulse" />
-            <p className="text-lg">+919871726301</p>
+            <PhoneIcon className="h-5 w-5 md:h-7 md:w-7 animate-pulse" />
+            <p className="md:text-lg">+919871726301</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="h-7 w-7 animate-pulse" />
-            <p className="text-lg">New Delhi, India</p>
+            <MapPinIcon className="h-5 w-5 md:h-7 md:w-7 animate-pulse" />
+            <p className="md:text-lg">New Delhi, India</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="h-7 w-7 animate-pulse" />
-            <p className="text-lg">tarunkm__@outlook.com</p>
+            <EnvelopeIcon className="h-5 w-5 md:h-7 md:w-7 animate-pulse" />
+            <p className="md:text-lg">tarunkm__@outlook.com</p>
           </div>
         </div>
 

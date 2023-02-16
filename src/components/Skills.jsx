@@ -9,7 +9,7 @@ function Skills() {
       transition={{ duration: 1.5 }}
       className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center h-screen xl:space-y-0 mx-auto items-center"
     >
-      <h3 className="absolute top-16 md:top-24 uppercase tracking-[20px] text-gray-500 text-xl">
+      <h3 className="absolute top-16 md:top-24 uppercase tracking-[20px] text-gray-500 text-lg md:text-xl">
         Skills
       </h3>
 
